@@ -1,0 +1,68 @@
+@keyframes shake {
+  from {transform: translateY(-1px);}
+  to {transform: translateX(1px);}
+}
+@-webkit-keyframes shake {
+  from {transform: translateY(-1px);}
+  to {transform: translateY(1px);}
+}
+@keyframes b1 {
+  from {left: 1500px; top: 9px;}
+  to {left: 510px;  top: 9px;}
+}
+@-webkit-keyframes b1 {
+  from {left: -1500px;  top: 9px;}
+  to {left: 510px;  top: 9px;}
+}
+@keyframes b2 {
+  from {left: 1500px;}
+  to {left: 130px;}
+}
+@-webkit-keyframes b2 {
+  from {left: 1500px;}
+  to {left: 130px;}
+}
+@keyframes shift {
+  0% {top: 9px;}
+  25% {top: 20px;}
+  50% {top: 90px;}
+  75% {top: 30px;}
+  100% {top: 9px;}
+}
+@-webkit-keyframes shift {
+  0% {top: 9px;}
+  25% {top: 20px;}
+  50% {top: 90px;}
+  75% {top: 30px;}
+  100% {top: 9px;}
+}
+@keyframes foot {
+  0% {transform: rotateZ(125deg) skew(-27deg);}
+  25% {transform: rotateZ(125deg) skew(-19deg);}
+  50% {transform: rotateZ(125deg) skew(-11deg);}
+  75% {transform: rotateZ(125deg) skew(-19deg);}
+  100% {transform: rotateZ(125deg) skew(-27deg);}
+}
+@-webkit-keyframes foot {
+  0% {transform: rotateZ(125deg) skew(-27deg);}
+  25% {transform: rotateZ(125deg) skew(-19deg);}
+  50% {transform: rotateZ(125deg) skew(-11deg);}
+  75% {transform: rotateZ(125deg) skew(-19deg);}
+  100% {transform: rotateZ(125deg) skew(-27deg);}
+}
+@keyframes move {
+  0% {top: 50px;left: 450px;}
+  100% {top: 85px;left: 170px;}
+}
+@-webkit-keyframes move {
+  0% {top: 50px;left: 450px;}
+  100% {top: 85px;left: 170px;}
+}
+@keyframes disappear {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}
+@-webkit-keyframes disappear {
+  0% {opacity: 1}
+  100% {opacity: 0}
+}

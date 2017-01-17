@@ -1,0 +1,169 @@
+.road {
+  height: 360px;
+  background-color: rgb(48, 69, 94);
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.bus {
+  width: 320px;
+  height: 180px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 10px;
+  position: absolute;
+}
+.b-1 {
+  animation: b1 6s infinite cubic-bezier(0.04, 0.68, 0.55, 1), shake .2s infinite;
+  -webkit-animation:b1 6s infinite cubic-bezier(0.04, 0.68, 0.55, 1), shake .2s infinite;
+}
+.b-2 {
+  animation: b2 6s infinite cubic-bezier(0.91, 0.4, 0, 0.99), shake .2s infinite, shift 6s infinite cubic-bezier(0.91, 0.4, 0, 0.99);
+  -webkit-animation:b2 6s infinite cubic-bezier(0.91, 0.4, 0, 0.99), shake .2s infinite shift 6s infinite cubic-bezier(0.91, 0.4, 0, 0.99);
+}
+.wheel {
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  top: 156px;
+}
+.w-l {
+  left: 33px;
+}
+.w-r {
+  left: 175px;
+}
+.glass {
+  background-color: rgb(0, 191, 254);
+  border: 2px solid black;
+  position: absolute;
+  border-radius: 10px;
+}
+.g-head {
+  width: 70px;
+  height: 90px;
+  top: 20px;
+  left: 20px;
+}
+.g-tail-1 {
+  width: 50px;
+  height: 75px;
+  top: 30px;
+  left: 120px;
+}
+.g-tail-2 {
+  width: 50px;
+  height: 75px;
+  top: 30px;
+  left: 180px;
+}
+.g-tail-3 {
+  width: 50px;
+  height: 75px;
+  top: 30px;
+  left: 240px;
+}
+.line {
+  background-color: white;
+  position: relative;
+  height: 26px;
+  width: 150px;
+  display: inline-block;
+  margin-top: -13px;
+  top: 50%;
+  margin-left: 80px;
+}
+.card-box {
+  margin: 50px 0;
+  display: inline-block;
+  position: relative;
+}
+.card {
+  width: 80px;
+  height: 130px;
+  transform: skew(0, -30deg);
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+}
+.letters {
+  width: 80px;
+  height: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  font-size: 12px;
+}
+.letters > span {
+  display: inline-block;
+  margin: 5px 0;
+}
+.card-foot {
+  position: relative;
+  top: -3px;
+  left: 13px;
+  transform: skew(0, -30deg);
+  height: 57px;
+  width: 60px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.man {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 450px;
+  animation: move 5.5s ease .5s infinite;
+  -webkit-animation:move 5.5s ease .5s infinite;
+}
+.man > div {
+  background-color: black;
+}
+.m-head {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.m-body {
+  width: 10px;
+  height: 100px;
+  position: relative;
+  left: 25px;
+  top: -1px;
+}
+.m-hand {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  background: none !important;
+  width: 73px;
+  background: none;
+  transform: rotateZ(-57deg) skew(-19deg);
+  height: 69px;
+  position: relative;
+  top: -135px;
+  left: -10px;
+}
+.m-foot {
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+  background: none !important;
+  width: 73px;
+  background: none;
+  transform: rotateZ(125deg) skew(-19deg);
+  height: 69px;
+  position: relative;
+  top: -62px;
+  left: -10px;
+  animation: foot 0.5s infinite;
+  -webkit-animation:foot 0.5s infinite;
+  animation-delay:.5s;
+  -webkit-animation-delay:.5s;
+}
+.disappear {
+  animation: disappear 0.5s;
+  -webkit-animation:disappear 0.5s;
+}
